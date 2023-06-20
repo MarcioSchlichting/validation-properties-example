@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ValidationPropertyApi</name>
+    </assembly>
+    <members>
+        <member name="T:ValidationPropertyApi.Controllers.ModelStateExample.Person">
+            <summary>
+            Person with Fluent Validation
+            </summary>
+        </member>
+        <member name="M:ValidationPropertyApi.Controllers.ModelStateExample.PersonExampleController.Create(ValidationPropertyApi.Controllers.ModelStateExample.Person)">
+            <summary>
+            Create a new Person -- Fluent Validation
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ValidationPropertyApi.Controllers.DataAnnotationExample.Person">
+            <summary>
+            Person with Data annotations
+            </summary>
+        </member>
+        <member name="M:ValidationPropertyApi.Controllers.DataAnnotationExample.PersonExampleController.Create(ValidationPropertyApi.Controllers.DataAnnotationExample.Person)">
+            <summary>
+            Create a new Person -- DATA ANNOTATION TEST
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ValidationPropertyApi.Controllers.CustomValidationExample.PersonExampleController.Create(ValidationPropertyApi.Controllers.CustomValidationExample.Person)">
+            <summary>
+            Create a new Person -- Custom Validation
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ValidationPropertyApi.Controllers.FluntValidator.PersonExampleController.Create(ValidationPropertyApi.Controllers.FluntValidator.Person)">
+            <summary>
+            Create a new Person -- Flunt Validation
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
